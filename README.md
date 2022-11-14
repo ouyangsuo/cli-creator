@@ -11,7 +11,7 @@
 `npm unlink -g <包名>`
 
 ### 系列命令
-- `stex init mongo-expresser myserver`
-- `stex config set type orgs`
-- `stex config get type`
-- `stex --help`
+- `sto init mongo-expresser myserver`
+- `sto config set type orgs`
+- `sto config get type`
+- `sto --help`
