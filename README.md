@@ -1,23 +1,17 @@
 ### 安装依赖
-
 `npm install`
 
-### 启动
+### 编译
+`npm run compile`
 
-`npm run watch`
+### 注册CMD命令 
+`npm link`
 
-### 执行 `npm link`
+### 注销CMD命令
+`npm unlink -g <包名>`
 
-此时就可以使用 `eos` 命令了。
-
-- `eos init vue-template myVue`
-- `eos config get`
-- `eos config set type orgs`
-- `eos config set registry vuejs-templates`
-
-- `eos config set type users`
-- `eos config set registry YvetteLau`
-
-### 发布
-
-开发完成后，即可发布至 npm.
+### 系列命令
+- `stex init mongo-expresser myserver`
+- `stex config set type orgs`
+- `stex config get type`
+- `stex --help`
