@@ -1,0 +1,21 @@
+{
+    "name": "stex-cli",
+    "cmd": "stex",
+    "rc": {
+        "name": ".stexrc",
+        "default": {
+            "registry": "ouyangsuo",
+            "type": "users",
+            "name": "steve"
+        }
+    },
+    "github": {
+        "username": "ouyangsuo",
+        "templates": {
+            "mongo-expresser": "express+mongodb服务端代码生成器",
+            "vue-client": "vue3+vueRouter+vuex+vant移动端项目",
+            "vue-manager": "vue3+vueRouter+vuex+element中后台项目",
+            "vue-uniapp": "vue3+uniapp小程序项目"
+        }
+    }
+}
