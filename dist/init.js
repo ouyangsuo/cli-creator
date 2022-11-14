@@ -71,6 +71,7 @@ var init = function () {
                                                         if (_fs2.default.existsSync(fileName)) {
                                                             var data = _fs2.default.readFileSync(fileName).toString();
                                                             var json = JSON.parse(data);
+
                                                             json.name = projectName;
                                                             json.author = answer.author;
                                                             json.description = answer.description;

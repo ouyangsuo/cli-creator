@@ -31,6 +31,7 @@ let init = async (templateName, projectName) => {
                 if(fs.existsSync(fileName)){
                     const data = fs.readFileSync(fileName).toString();
                     let json = JSON.parse(data);
+                    
                     json.name = projectName;
                     json.author = answer.author;
                     json.description = answer.description;

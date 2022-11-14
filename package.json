@@ -1,15 +1,15 @@
 {
-    "name": "stex-cli",
-    "version": "1.0.3",
-    "description": "自定义脚手架stex-cli",
+    "name": "cli-creator",
+    "version": "1.0.4",
+    "description": "脚手架生成器",
     "main": "index.js",
     "bin": {
-        "stex": "./bin/www"
+        "sto": "./bin/www"
     },
     "scripts": {
         "compile": "babel src -d dist",
         "watch": "npm run compile --watch",
-        "postinstall": "stex config set"
+        "postinstall": "sto config set"
     },
     "keywords": [],
     "author": "",

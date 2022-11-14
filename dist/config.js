@@ -79,6 +79,6 @@ var config = function () {
     return function config(_x, _x2, _x3) {
         return _ref.apply(this, arguments);
     };
-}(); // 管理 .stexrc 文件 (当前用户目录下)
+}(); // 管理 .storc 文件 (当前用户目录下)
 
 module.exports = config;

@@ -1,4 +1,4 @@
-// 管理 .stexrc 文件 (当前用户目录下)
+// 管理 .storc 文件 (当前用户目录下)
 
 import { get, set, getAll, remove } from './utils/rc';
 
