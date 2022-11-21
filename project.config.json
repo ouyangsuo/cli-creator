@@ -5,7 +5,7 @@
         "name": ".storc",
         "default": {
             "registry": "ouyangsuo",
-            "type": "users",
+            "type": "org",
             "author": "steveouyang"
         }
     },

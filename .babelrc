@@ -4,6 +4,7 @@
     "react",
     "stage-0"
   ],
+  
   "plugins": [
     "babel-plugin-transform-runtime",
     "transform-class-properties",
